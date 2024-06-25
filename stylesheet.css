@@ -164,6 +164,8 @@ section.blockquote1 span {
 
 /*Footer Section*/
 
+/*Footer Section*/
+
 footer {
     background-color: rgb(121, 39, 28);
     color: white;
@@ -174,15 +176,58 @@ footer {
     font-weight: 300;
     font-style: normal;
     margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer img.logo{
     margin: auto;
-    padding-top: 5px;
+    padding-top: 0;
     width: 80px;
     border-radius: 50%;
+}
+
+address {
+    text-align: right;
+    padding: 15px;
 }
 
 footer p i{
     font-size: smaller;
 }
+/* Style all font awesome icons */
+
+section.smicons{
+    padding: 25px;
+    text-align: left;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 24%;
+  }
+
+    /* Twitter */
+.fa-instagram {
+    background: #972926;
+    color: white;
+    border-radius: 24%;
+  }
+  
